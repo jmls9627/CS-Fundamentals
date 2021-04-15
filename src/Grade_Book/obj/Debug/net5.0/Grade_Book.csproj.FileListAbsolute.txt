@@ -1,0 +1,16 @@
+C:\Users\jmls9\GradeBook\src\Grade_Book\bin\Debug\net5.0\Grade_Book.exe
+C:\Users\jmls9\GradeBook\src\Grade_Book\bin\Debug\net5.0\Grade_Book.deps.json
+C:\Users\jmls9\GradeBook\src\Grade_Book\bin\Debug\net5.0\Grade_Book.runtimeconfig.json
+C:\Users\jmls9\GradeBook\src\Grade_Book\bin\Debug\net5.0\Grade_Book.runtimeconfig.dev.json
+C:\Users\jmls9\GradeBook\src\Grade_Book\bin\Debug\net5.0\Grade_Book.dll
+C:\Users\jmls9\GradeBook\src\Grade_Book\bin\Debug\net5.0\ref\Grade_Book.dll
+C:\Users\jmls9\GradeBook\src\Grade_Book\bin\Debug\net5.0\Grade_Book.pdb
+C:\Users\jmls9\GradeBook\src\Grade_Book\obj\Debug\net5.0\Grade_Book.csprojAssemblyReference.cache
+C:\Users\jmls9\GradeBook\src\Grade_Book\obj\Debug\net5.0\Grade_Book.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmls9\GradeBook\src\Grade_Book\obj\Debug\net5.0\Grade_Book.AssemblyInfoInputs.cache
+C:\Users\jmls9\GradeBook\src\Grade_Book\obj\Debug\net5.0\Grade_Book.AssemblyInfo.cs
+C:\Users\jmls9\GradeBook\src\Grade_Book\obj\Debug\net5.0\Grade_Book.csproj.CoreCompileInputs.cache
+C:\Users\jmls9\GradeBook\src\Grade_Book\obj\Debug\net5.0\Grade_Book.dll
+C:\Users\jmls9\GradeBook\src\Grade_Book\obj\Debug\net5.0\ref\Grade_Book.dll
+C:\Users\jmls9\GradeBook\src\Grade_Book\obj\Debug\net5.0\Grade_Book.pdb
+C:\Users\jmls9\GradeBook\src\Grade_Book\obj\Debug\net5.0\Grade_Book.genruntimeconfig.cache
