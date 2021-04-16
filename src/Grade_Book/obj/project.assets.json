@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jmls9\\GradeBook\\src\\Grade_Book\\Grade_Book.csproj",
+      "projectUniqueName": "C:\\GITHUB\\CS-Fundamentals\\src\\Grade_Book\\Grade_Book.csproj",
       "projectName": "Grade_Book",
-      "projectPath": "C:\\Users\\jmls9\\GradeBook\\src\\Grade_Book\\Grade_Book.csproj",
+      "projectPath": "C:\\GITHUB\\CS-Fundamentals\\src\\Grade_Book\\Grade_Book.csproj",
       "packagesPath": "C:\\Users\\jmls9\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jmls9\\GradeBook\\src\\Grade_Book\\obj\\",
+      "outputPath": "C:\\GITHUB\\CS-Fundamentals\\src\\Grade_Book\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
