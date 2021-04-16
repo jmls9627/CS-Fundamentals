@@ -17,21 +17,20 @@ namespace Grade_Book
             grades.Add(x);
         }
 
-        public void ShowStats(){
-             var result1=0.0;
+        public Stats GetStats(){
+            
+             var result=0.0;
              var highGrade= double.MinValue;
              var lowGrade= double.MaxValue;
 
              foreach(var number in this.grades){
                  lowGrade= Math.Min(number, lowGrade);
                  highGrade= Math.Max(number, highGrade);
-                 result1 += number;
+                 result += number;
              }
-             result1/=grades.Count;
+             result/=grades.Count;
 
-            Console.WriteLine($"the average grade is: {result1:N1}");
-            Console.WriteLine($"the lowest grade is: {lowGrade:N1} ");
-            Console.WriteLine($"the hihgest grade is: {highGrade:N1}");
+            return new Stats(result,highGrade,lowGrade);
         }
     }
 }

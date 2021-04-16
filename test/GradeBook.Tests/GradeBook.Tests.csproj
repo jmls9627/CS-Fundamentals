@@ -20,4 +20,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Grade_Book\Grade_Book.csproj" />
+  </ItemGroup>
+
 </Project>

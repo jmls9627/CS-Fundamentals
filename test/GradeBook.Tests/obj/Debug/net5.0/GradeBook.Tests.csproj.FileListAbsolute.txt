@@ -98,3 +98,9 @@ C:\GITHUB\CS-Fundamentals\test\GradeBook.Tests\obj\Debug\net5.0\GradeBook.Tests.
 C:\GITHUB\CS-Fundamentals\test\GradeBook.Tests\obj\Debug\net5.0\ref\GradeBook.Tests.dll
 C:\GITHUB\CS-Fundamentals\test\GradeBook.Tests\obj\Debug\net5.0\GradeBook.Tests.pdb
 C:\GITHUB\CS-Fundamentals\test\GradeBook.Tests\obj\Debug\net5.0\GradeBook.Tests.genruntimeconfig.cache
+C:\GITHUB\CS-Fundamentals\test\GradeBook.Tests\bin\Debug\net5.0\Grade_Book.deps.json
+C:\GITHUB\CS-Fundamentals\test\GradeBook.Tests\bin\Debug\net5.0\Grade_Book.runtimeconfig.json
+C:\GITHUB\CS-Fundamentals\test\GradeBook.Tests\bin\Debug\net5.0\Grade_Book.runtimeconfig.dev.json
+C:\GITHUB\CS-Fundamentals\test\GradeBook.Tests\bin\Debug\net5.0\Grade_Book.exe
+C:\GITHUB\CS-Fundamentals\test\GradeBook.Tests\bin\Debug\net5.0\Grade_Book.dll
+C:\GITHUB\CS-Fundamentals\test\GradeBook.Tests\bin\Debug\net5.0\Grade_Book.pdb
