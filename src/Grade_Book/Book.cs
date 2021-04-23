@@ -5,7 +5,7 @@ namespace Grade_Book
 {
     public class Book
     { 
-      private List<double> grades; 
+      public List<double> grades; 
       public string name;
 
      public Book( string name)
@@ -13,8 +13,16 @@ namespace Grade_Book
       this.name=name;
       this.grades= new List<double>();
      }   
-        public void AddGrade(double x){
-            grades.Add(x);
+        public void AddGrade(double grade){
+            if(grade <= 100 && grade >= 0){
+               grades.Add(grade);
+            }
+            
+           else{
+            Console.WriteLine("Invalid value");
+           } 
+           
+
         }
 
         public Stats GetStats(){
@@ -23,14 +31,18 @@ namespace Grade_Book
              var highGrade= double.MinValue;
              var lowGrade= double.MaxValue;
 
-             foreach(var number in this.grades){
-                 lowGrade= Math.Min(number, lowGrade);
-                 highGrade= Math.Max(number, highGrade);
-                 result += number;
+            for(int i=0;i<grades.Count;i++){
+                if(grades[i]==42.1){
+                 continue; // break, goto done
+                }
+                
+                 lowGrade= Math.Min(grades[i], lowGrade);
+                 highGrade= Math.Max(grades[i], highGrade);
+                 result += grades[i];
              }
              result/=grades.Count;
-
-            return new Stats(result,highGrade,lowGrade);
+             //done:
+             return new Stats(result,highGrade,lowGrade);
         }
     }
 }
