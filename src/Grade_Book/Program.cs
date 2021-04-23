@@ -19,12 +19,23 @@ namespace Grade_Book
                if (input=="q")
                {
                    done=true;
+                   continue;
                }
-               else
-               {
-                 var grade=double.Parse(input);
-                 book.AddGrade(grade);
-               }      
+               
+                 try
+                 {
+                     var grade=double.Parse(input);
+                     book.AddGrade(grade);
+                 }
+                 catch(ArgumentException ex)
+                 {
+                    Console.WriteLine(ex.Message);
+                 }
+                 catch(FormatException ex)
+                 {
+                    Console.WriteLine(ex.Message);
+                 }  
+                                
            }
      
          var Stats = book.GetStats();
