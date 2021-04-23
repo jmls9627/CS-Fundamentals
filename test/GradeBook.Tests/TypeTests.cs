@@ -7,6 +7,21 @@ namespace GradeBook.Tests
     public class TypeTests
     {
          [Fact]
+        public void CSharpCanPassByReff()
+        {
+          var book1= GetBook("Book 1");
+          GetBookSetName(ref book1,"New Name"); //ref or out(does it pass by reference but its has not been initialaized you would have an error)
+          
+          Assert.Equal( "New Name",book1.name);
+        }
+
+        private void GetBookSetName(ref Book book, string Name)
+        {
+           book=new Book(Name);
+          
+        }
+
+         [Fact]
         public void CSharpIsPassByValue()
         {
           var book1= GetBook("Book 1");
