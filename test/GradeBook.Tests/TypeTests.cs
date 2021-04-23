@@ -6,6 +6,20 @@ namespace GradeBook.Tests
 {
     public class TypeTests
     {
+         [Fact]
+        public void CanSetNameFromReference()
+        {
+          var book1= GetBook("Book 1");
+          SetName(book1,"New Name");
+          
+          Assert.Equal( "New Name",book1.name);
+        }
+
+        private void SetName(Book book1, string Name)
+        {
+            book1.name=Name;
+        }
+
         [Fact]
         public void GetBookReturnDifferentObjects()
         {
